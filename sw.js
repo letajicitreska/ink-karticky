@@ -1,5 +1,5 @@
 // Offline cache. Při každé změně obsahu zvyšte číslo verze, ať se lidem stáhne nová verze.
-var VERSION = "ink-karticky-v1";
+var VERSION = "ink-karticky-v2";
 var FILES = [
   "./", "index.html", "style.css", "app.js", "data.js", "manifest.webmanifest",
   "fonts/haffer-regular.woff2", "fonts/haffer-bold.woff2",
