@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kartičky pocitů a potřeb · INK</title>
+<meta name="description" content="Kartičky pocitů a potřeb Institutu nenásilné komunikace — pro workshopy i každodenní trénink.">
+<meta name="theme-color" content="#E3E1DD">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="INK kartičky">
+<link rel="preload" href="fonts/haffer-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <a class="logo" href="https://ink.cz" aria-label="Institut nenásilné komunikace"><img src="img/ink-logo.png" alt="INK"></a>
+    <div class="tools">
+      <button id="lang" class="pill o small" type="button"></button>
+      <a id="ex-link" class="pill small" href="#cviceni"></a>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Sekce">
+    <a href="#pocity" data-view="pocity"></a>
+    <a href="#potreby" data-view="potreby"></a>
+    <a href="#vyber" data-view="vyber"></a>
+  </nav>
+</header>
+<main id="main"></main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
