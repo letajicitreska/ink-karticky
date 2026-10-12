@@ -5,16 +5,16 @@
 window.CARDS = {
   cs: {
     feelings: [
-      "vztek|hněv", "naštvání|podráždění", "rozladění|rozhořčení", "netrpělivost",
-      "lítost|zklamání", "smutek|beznaděj", "napětí", "strach|obavy", "únava|vyčerpání",
-      "bezmoc", "bolest|zranění", "zmatek", "nervozita", "rozpaky|stud|trapnost", "hořkost",
-      "zahlcení", "nuda", "osamělost", "otupělost|rezignace", "netečnost|odpojení",
-      "úzkost|stísněnost", "frustrace", "znechucení", "mrzutost", "žal|zármutek", "marnost",
-      "vděčnost", "naplnění", "inspirace", "fascinace|okouzlení|úžas", "energie|osvěžení",
-      "vyrovnanost|rovnováha", "sebejistota", "klid", "radost|štěstí", "veselost|pobavení",
-      "volnost|bezstarostnost", "překvapení", "zvědavost|zájem", "něha", "pohoda|spokojenost",
-      "hrdost", "hravost|rozpustilost", "hřejivý pocit|vřelost", "povzbuzení|odhodlání",
-      "nadšení|vášeň", "naděje", "dojetí", "úleva|uvolnění"
+      "bolest|zranění", "povzbuzení|odhodlání", "lítost|zklamání", "úleva|uvolnění", "nervozita",
+      "zvědavost|zájem", "úzkost|stísněnost", "naplnění", "naštvání|podráždění", "klid",
+      "rozladění|rozhořčení", "nadšení|vášeň", "osamělost", "energie|osvěžení", "netrpělivost",
+      "veselost|pobavení", "zmatek", "smutek|beznaděj", "sebejistota", "frustrace", "inspirace",
+      "napětí", "radost|štěstí", "vztek|hněv", "hřejivý pocit|vřelost", "nuda", "hrdost",
+      "zahlcení", "hravost|rozpustilost", "mrzutost", "naděje", "rozpaky|stud|trapnost", "něha",
+      "otupělost|rezignace", "bezmoc", "vděčnost", "marnost", "volnost|bezstarostnost",
+      "netečnost|odpojení", "vyrovnanost|rovnováha", "hořkost", "překvapení", "žal|zármutek",
+      "fascinace|okouzlení|úžas", "strach|obavy", "pohoda|spokojenost", "únava|vyčerpání",
+      "dojetí", "znechucení"
     ],
     needs: [
       "jistota", "bezpečí", "dobrodružství|výzva", "dotek", "jasnost|orientace",
@@ -24,39 +24,40 @@ window.CARDS = {
       "ocenění|uznání", "přátelství", "dávání|přispění|obohacování života druhých",
       "progres|efektivita", "řád|předvídatelnost", "respekt|být brán vážně", "sexuální prožívání",
       "sdílení", "růst|rozvoj|učení se", "moc|vliv", "soustředění",
-      "sounáležitost|vědomí, že někam patřím", "prostor", "spolupráce", "smysl", "oslava|truchlení",
-      "spontánnost|autentičnost", "spravedlnost|férovost", "vzájemnost", "požitek|potěšení smyslů",
-      "transparentnost|otevřenost|upřímnost", "zábava|humor", "intimita|blízkost",
-      "volnost|svoboda|lehkost", "hra|hravost", "přijetí|být přijímán takový, jaký jsem",
-      "tvořivost|sebevyjádření", "pozornost|být slyšen|být viděn", "zdraví|tělesná i duševní síla",
+      "sounáležitost|vědomí, že někam patřím", "prostor", "spolupráce", "smysl", "oslava",
+      "truchlení", "spontánnost|autentičnost", "spravedlnost|férovost", "vzájemnost",
+      "požitek|potěšení smyslů", "transparentnost|otevřenost|upřímnost", "zábava|humor",
+      "intimita|blízkost", "volnost|svoboda|lehkost", "hra|hravost",
+      "přijetí|být přijímán takový, jaký jsem", "tvořivost|sebevyjádření",
+      "pozornost|být slyšen|být viděn", "zdraví|tělesná i duševní síla",
       "přesah|spiritualita|kontakt s něčím, co nás přesahuje", "kompetence|mistrovství"
     ]
   },
   en: {
     feelings: [
-      "afraid|scared|shocked", "anxious|worried", "nervous|tense", "insecure",
-      "angry|furious|resentful", "annoyed|irritated", "impatient", "frustrated", "disgusted",
-      "sad|heavy", "disappointed|discouraged", "hurt", "lonely", "hopeless", "sorry",
-      "confused|puzzled", "torn|hesitant", "lost|uncertain", "tired|exhausted|drained",
-      "overwhelmed", "helpless", "bored|dull", "apathetic|indifferent", "numb|passive",
-      "distant|withdrawn", "embarrassed|self-conscious", "ashamed|guilty", "uncomfortable|upset",
-      "happy|glad", "delighted|cheerful", "excited|enthusiastic", "thrilled|joyful",
-      "calm|relaxed", "peaceful|at ease", "comfortable|content", "relieved", "secure",
-      "curious|interested", "fascinated", "inspired", "energised|alert", "surprised",
-      "touched|moved", "tender|affectionate", "thankful|grateful", "friendly", "confident",
-      "encouraged|determined", "hopeful", "proud", "free|empowered", "fulfilled|satisfied",
-      "pleased|refreshed", "amused|playful", "amazed|in awe", "passionate"
+      "disappointed|discouraged", "confident", "angry|furious|resentful", "passionate", "lonely",
+      "energised|alert", "helpless", "delighted|cheerful", "anxious|worried", "relieved",
+      "nervous|tense", "pleased|refreshed", "lost|uncertain", "friendly", "insecure",
+      "calm|relaxed", "hurt", "curious|interested", "tired|exhausted|drained", "surprised",
+      "numb|passive", "hopeful", "torn|hesitant", "thrilled|joyful", "impatient",
+      "encouraged|determined", "afraid|scared|shocked", "secure", "bored|dull", "amazed|in awe",
+      "confused|puzzled", "fascinated", "embarrassed|self-conscious", "excited|enthusiastic",
+      "hopeless", "free|empowered", "distant|withdrawn", "tender|affectionate",
+      "uncomfortable|upset", "thankful|grateful", "overwhelmed", "peaceful|at ease", "sorry",
+      "happy|glad", "ashamed|guilty", "proud", "frustrated", "comfortable|content", "disgusted",
+      "fulfilled|satisfied", "apathetic|indifferent", "inspired", "annoyed|irritated",
+      "touched|moved", "sad|heavy", "amused|playful"
     ],
     needs: [
       "acceptance", "affection|warmth", "appreciation", "belonging", "closeness|intimacy",
       "communication", "consideration", "cooperation", "empathy", "love", "respect", "support",
       "trust", "to matter", "to understand|and be understood", "to see|and be seen",
       "authenticity", "integrity", "openness|transparency", "clarity", "choice",
-      "freedom|independence", "space", "rest|sleep", "safety", "food|shelter", "movement",
-      "touch", "sexual expression", "ease|harmony", "order", "equality|fairness", "certainty",
-      "beauty", "purpose", "contribution", "competence|effectiveness", "growth|learning",
-      "challenge", "creativity|self-expression", "focus", "hope|inspiration", "knowledge",
-      "celebration|mourning", "fun|joy", "adventure", "humour"
+      "freedom|independence", "space", "rest", "safety", "movement", "touch", "sexual expression",
+      "ease|harmony", "order", "equality|fairness", "certainty", "beauty", "purpose",
+      "contribution", "competence|effectiveness", "growth|learning", "challenge",
+      "creativity|self-expression", "focus", "hope|inspiration", "knowledge", "celebration",
+      "mourning", "fun|joy", "adventure", "humour"
     ]
   }
 };
@@ -70,7 +71,11 @@ window.UI = {
     empty: "Zatím nemáte nic vybráno. Klepněte na karty v záložkách Pocity a Potřeby.",
     clear: "Zrušit výběr", clearConfirm: "Opravdu zrušit celý výběr?",
     draw: "Vylosovat potřebu", drawAgain: "Vylosovat jinou",
-    selected: "vybráno"
+    selected: "vybráno",
+    selHint: "Klepnutím kartu odeberete. Podržením a tažením ji přesunete.",
+    share: "Sdílet", copied: "Zkopírováno – můžete vložit do zprávy.",
+    shareIntro: "Můj výběr z kartiček pocitů a potřeb INK:",
+    replaceConfirm: "Nahradit váš současný výběr sdíleným výběrem?"
   },
   en: {
     lang: "en", other: "CZ", otherTitle: "Přepnout do češtiny",
@@ -80,7 +85,11 @@ window.UI = {
     empty: "Nothing selected yet. Tap cards in the Feelings and Needs tabs.",
     clear: "Clear selection", clearConfirm: "Clear the whole selection?",
     draw: "Draw a need", drawAgain: "Draw another",
-    selected: "selected"
+    selected: "selected",
+    selHint: "Tap a card to remove it. Press and hold to drag it elsewhere.",
+    share: "Share", copied: "Copied – paste it into a message.",
+    shareIntro: "My selection from the INK feelings and needs cards:",
+    replaceConfirm: "Replace your current selection with the shared one?"
   }
 };
 
