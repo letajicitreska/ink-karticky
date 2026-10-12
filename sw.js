@@ -1,7 +1,7 @@
 // Offline cache. Při každé změně obsahu zvyšte číslo verze, ať se lidem stáhne nová verze.
-var VERSION = "ink-karticky-v3";
+var VERSION = "ink-karticky-v4";
 var FILES = [
-  "./", "index.html", "style.css", "app.js", "data.js", "manifest.webmanifest", "vendor/sortable.min.js",
+  "./", "index.html", "style.css", "app.js", "data.js", "manifest.webmanifest",
   "fonts/haffer-regular.woff2", "fonts/haffer-bold.woff2",
   "img/ink-logo.png", "img/icon-192.png", "img/icon-512.png", "img/apple-touch-icon.png", "img/favicon-32.png"
 ];
