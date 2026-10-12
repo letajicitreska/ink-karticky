@@ -83,6 +83,7 @@ main{max-width:var(--max);margin:0 auto;padding:0 16px calc(32px + env(safe-area
 #selgrid .card.drag-chosen{transform:scale(.97)}
 #selgrid .card.drag-ghost{background:transparent!important;box-shadow:none!important;border:2px dashed var(--em)}
 #selgrid .card.drag-ghost>*{visibility:hidden}
-.card.drag-fly{opacity:1!important;box-shadow:0 18px 40px rgba(37,68,79,.28)!important;outline:none;-webkit-user-select:none;user-select:none;z-index:100;cursor:grabbing}
+.card.drag-fly{transition:none!important;animation:none!important;will-change:transform;margin:0!important;opacity:1!important;box-shadow:0 18px 40px rgba(37,68,79,.28)!important;outline:none;-webkit-user-select:none;user-select:none;z-index:100;cursor:grabbing}
 .card.drag-fly::after{content:none!important}
-body.dragging{-webkit-user-select:none;user-select:none;cursor:grabbing}
+body.dragging{-webkit-user-select:none;user-select:none;cursor:grabbing;overscroll-behavior:none}
+body.dragging .card:active{transform:none}

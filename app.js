@@ -200,6 +200,11 @@
     loadSel(); render();
   });
 
+  // během tažení nesmí iOS posouvat stránku (jinak se karta třese a neposlouchá prst)
+  document.addEventListener("touchmove", function (e) {
+    if (document.body.classList.contains("dragging")) e.preventDefault();
+  }, { passive: false });
+
   window.addEventListener("hashchange", render);
   loadSel();
 
