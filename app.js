@@ -119,10 +119,15 @@
     var grid = document.getElementById("selgrid");
     if (grid && window.Sortable) {
       sortable = Sortable.create(grid, {
-        animation: 150, delay: 250, delayOnTouchOnly: true, touchStartThreshold: 6,
-        ghostClass: "drag-ghost", chosenClass: "drag-chosen",
-        onStart: function () { justDragged = true; },
+        animation: 220, easing: "cubic-bezier(.2,.8,.2,1)",
+        delay: 220, delayOnTouchOnly: true, touchStartThreshold: 6,
+        forceFallback: true, fallbackOnBody: true, fallbackTolerance: 3,
+        swapThreshold: 0.6, scroll: true, scrollSensitivity: 90, scrollSpeed: 14, bubbleScroll: true,
+        ghostClass: "drag-ghost", chosenClass: "drag-chosen", fallbackClass: "drag-fly",
+        onChoose: function () { if (navigator.vibrate) { try { navigator.vibrate(12); } catch (e) {} } },
+        onStart: function () { justDragged = true; document.body.classList.add("dragging"); },
         onEnd: function () {
+          document.body.classList.remove("dragging");
           setOrder(Array.prototype.map.call(grid.querySelectorAll(".card[data-key]"), function (c) { return c.dataset.key; }));
           saveSel();
           setTimeout(function () { justDragged = false; }, 50);
