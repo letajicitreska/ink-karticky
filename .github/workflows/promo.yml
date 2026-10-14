@@ -1,217 +1,163 @@
-{
- "courses": [
-  {
-   "id": "konverzace-ktere-posiluji-vztahy",
-   "title": "Konverzace, které posilují vztahy",
-   "sub": "dlouhodobý kurz v Brně",
-   "date": "2026-10-15",
-   "time": "16:00",
-   "level": "Pokročilý",
-   "format": "Dlouhodobý",
-   "desc": "Šestitýdenní prohlubující trénink nenásilné komunikace vytváří soustředěný prostor pro uplatňování nenásilných principů při vedení konverzace.",
-   "url": "https://nenasilnakomunikace.org/kurz/konverzace-ktere-posiluji-vztahy/"
-  },
-  {
-   "id": "rekni-co-chces-sila-jasnych-a-efektivnich-proseb-vecer-v-praze-3",
-   "title": "Řekni, co chceš – síla jasných a efektivních proseb",
-   "sub": "večer v Praze",
-   "date": "2026-10-16",
-   "time": "16:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Naučte se posouvat zaseknuté rozhovory díky paletě praktických technik a jasně formulovaných návrhů, které podpoří hledání společného řešení.",
-   "url": "https://nenasilnakomunikace.org/kurz/rekni-co-chces-sila-jasnych-a-efektivnich-proseb-vecer-v-praze-3/"
-  },
-  {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-23",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Praze",
-   "date": "2026-10-17",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-23/"
-  },
-  {
-   "id": "eskalace-konfliktu-brno-4",
-   "title": "Eskalace konfliktu",
-   "sub": "den a půl v Brně",
-   "date": "2026-10-24",
-   "time": "10:00",
-   "level": "Zkušený",
-   "format": "Víkend",
-   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
-   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-brno-4/"
-  },
-  {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-33",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Brně",
-   "date": "2026-11-07",
-   "time": "10:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-33/"
-  },
-  {
-   "id": "jak-pracovat-s-pretizenim-den-v-praze",
-   "title": "Jak pracovat s přetížením a znovu najít energii",
-   "sub": "den v Praze",
-   "date": "2026-11-13",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Máte pocit, že vás tempo vašeho života občas válcuje?",
-   "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-pretizenim-den-v-praze/"
-  },
-  {
-   "id": "jak-pracovat-s-polarizaci-spolecnosti",
-   "title": "Jak pracovat s polarizací společnosti",
-   "sub": "den v Brně",
-   "date": "2026-11-19",
-   "time": "09:30",
-   "level": "Začátečník",
-   "format": "Jednodenní",
-   "desc": "Naučme se pracovat s tématy, která stále více polarizují společnost.",
-   "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-polarizaci-spolecnosti/"
-  },
-  {
-   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
-   "title": "Když naslouchání nestačí – úvod do krizové intervence",
-   "sub": "den v Brně",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
-   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
-  },
-  {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-24",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Praze",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-24/"
-  },
-  {
-   "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
-   "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím",
-   "sub": "den v Praze",
-   "date": "2026-11-23",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Jak zareagujete, když vás něco zaskočí nebo vyvede z míry?",
-   "url": "https://nenasilnakomunikace.org/kurz/zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze/"
-  },
-  {
-   "id": "usmirovani-a-pece-o-rany-2",
-   "title": "Usmiřování a péče o rány",
-   "sub": "den v Praze",
-   "date": "2026-12-01",
-   "time": "10:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Umění vyslechnout si dopady našeho jednání na druhé bez obran a studu otvírá dveře usmíření.",
-   "url": "https://nenasilnakomunikace.org/kurz/usmirovani-a-pece-o-rany-2/"
-  },
-  {
-   "id": "jak-pracovat-s-polarizaci-spolecnosti-praha-2",
-   "title": "Jak pracovat s polarizací společnosti",
-   "sub": "den v Praze",
-   "date": "2026-12-03",
-   "time": "09:30",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Naučme se pracovat s tématy, která stále více polarizují společnost.",
-   "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-polarizaci-spolecnosti-praha-2/"
-  },
-  {
-   "id": "usmirovani-a-pece-o-rany",
-   "title": "Usmiřování a péče o rány",
-   "sub": "den v Brně",
-   "date": "2026-12-11",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Jednodenní",
-   "desc": "Umění vyslechnout si dopady našeho jednání na druhé bez obran a studu otvírá dveře usmíření.",
-   "url": "https://nenasilnakomunikace.org/kurz/usmirovani-a-pece-o-rany/"
-  },
-  {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-34",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Brně",
-   "date": "2026-12-12",
-   "time": "10:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-34/"
-  },
-  {
-   "id": "4-kroky-k-sobe-nenasilna-komunikace-prozitkem-praha",
-   "title": "4 kroky k sobě: Nenásilná komunikace prožitkem",
-   "sub": "den v Praze",
-   "date": "2027-01-09",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Jednodenní",
-   "desc": "Věnujte celý den sebe napojení skrze 4 kroky nenásilné komunikace - pozorování, pocity, potřeby a prosby.",
-   "url": "https://nenasilnakomunikace.org/kurz/4-kroky-k-sobe-nenasilna-komunikace-prozitkem-praha/"
-  },
-  {
-   "id": "akademie-nenasilne-komunikace",
-   "title": "Akademie nenásilné komunikace",
-   "sub": "",
-   "date": "2027-01-29",
-   "time": "10:00",
-   "level": "Začátečník",
-   "format": "Dlouhodobý",
-   "desc": "Celoroční ponor do nenásilné komunikace v podpůrné, učící se komunitě lidí sdílejících společný záměr – přinášet do svých vztahů autentickou sílu i…",
-   "url": "https://nenasilnakomunikace.org/kurz/akademie-nenasilne-komunikace/"
-  },
-  {
-   "id": "uvod-do-nvc-bratislava",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "den v Bratislavě",
-   "date": "2027-01-30",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Jednodenní",
-   "desc": "Dopřejte si intenzivní vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nvc-bratislava/"
-  }
- ],
- "podcast": [
-  {
-   "id": "ep-106",
-   "num": "106",
-   "title": "4D of Disconnection: co spolehlivě brání spojení",
-   "date": "2026-10-01",
-   "minutes": "64",
-   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/106-4D-of-Disconnection-co-spolehliv-brn-spojen-e3pn4so"
-  },
-  {
-   "id": "ep-105",
-   "num": "105",
-   "title": "Kdo, kde, co, kdy a čím? Jak najít strategie, které fakt budou naplňovat potřeby.",
-   "date": "2026-09-10",
-   "minutes": "57",
-   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/105-Kdo--kde--co--kdy-a-m--Jak-najt-strategie--kter-fakt-budou-naplovat-poteby-e3olhnl"
-  },
-  {
-   "id": "ep-104",
-   "num": "104",
-   "title": "„Než jsem poznal nenásilku, mnohem víc jsem trpěl\" — upřímně z Festivalu nenásilné komunikace",
-   "date": "2026-08-14",
-   "minutes": "52",
-   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/104-Ne-jsem-poznal-nensilku--mnohem-vc-jsem-trpl--upmn-z-Festivalu-nensiln-komunikace-e3ndesn"
-  }
- ]
-}
+# Jednou denně stáhne kurzy ze starého webu INK a epizody Nenásilného podcastu
+# a uloží je do promo.json, ze kterého aplikace bere tipy. Ručně se dá spustit
+# v záložce Actions → „Aktualizace tipů“ → Run workflow.
+name: Aktualizace tipů
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stáhnout kurzy a podcast
+        run: |
+          python3 - <<'PY'
+          # Stáhne kurzy ze stránky INK a epizody Nenásilného podcastu a uloží je do promo.json.
+          # Spouští ho GitHub Action jednou denně. Jen standardní knihovna Pythonu, nic se neinstaluje.
+          # Když se něco nepovede stáhnout, nechá v promo.json předchozí data (nic se nesmaže).
+          import html, json, re, sys, urllib.request
+          from datetime import datetime, timezone
+          from email.utils import parsedate_to_datetime
+
+          COURSES_URL = "https://nenasilnakomunikace.org/kurzy/"
+          PODCAST_RSS = "https://anchor.fm/s/103bc7b64/podcast/rss"
+          OUT = "promo.json"
+          UA = {"User-Agent": "Mozilla/5.0 (karty.ink.cz promo bot)"}
+
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers=UA)
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return r.read().decode("utf-8", "replace")
+
+
+          def text(s):
+              s = re.sub(r"<[^>]+>", " ", s)
+              s = html.unescape(s).replace("\xa0", " ")
+              return re.sub(r"\s+", " ", s).strip()
+
+
+          def parse_courses(page):
+              """Vrátí syrové položky: d, t, title, url, level, format, desc."""
+              out = []
+              blocks = re.split(r'<div class="kalendar udalost">', page)[1:]
+              for b in blocks:
+                  def grab(pat):
+                      m = re.search(pat, b, re.S)
+                      return m.group(1) if m else ""
+                  title_html = grab(r"<h2>\s*<a [^>]*>(.*?)</a>\s*</h2>")
+                  info = grab(r'<div class="informace">(.*?)<div class="lektor">')
+                  desc = re.sub(r"<h2>.*?</h2>|<span[^>]*>.*?</span>|<div[^>]*>.*?</div>", " ", info, flags=re.S)
+                  out.append({
+                      "d": text(grab(r'<div class="datum">(.*?)</div>')),
+                      "t": text(grab(r'<div class="cas">(.*?)</div>')),
+                      "title": text(title_html),
+                      "url": grab(r'<h2>\s*<a href="([^"]+)"'),
+                      "level": text(grab(r'<span class="badge pokrocilost">(.*?)</span>')),
+                      "format": text(grab(r'<span class="badge trvani">(.*?)</span>')),
+                      "desc": text(desc),
+                  })
+              return out
+
+
+          def first_sentence(s, limit=150):
+              m = re.match(r"(.+?[.!?])(\s|$)", s)
+              s = m.group(1) if m else s
+              return s if len(s) <= limit else s[:limit - 1].rsplit(" ", 1)[0] + "…"
+
+
+          def normalize_course(c):
+              m = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", c["d"])
+              if not m or not c["url"] or not c["title"]:
+                  return None
+              day = "%s-%02d-%02d" % (m.group(3), int(m.group(2)), int(m.group(1)))
+              title, sub = c["title"], ""
+              p = re.match(r"^(.*?)\s*\(([^()]*)\)\s*$", title)
+              if p:
+                  title, sub = p.group(1).strip(), p.group(2).strip()
+              return {
+                  "id": c["url"].rstrip("/").rsplit("/", 1)[-1],
+                  "title": title, "sub": sub, "date": day, "time": c["t"],
+                  "level": c["level"], "format": c["format"],
+                  "desc": first_sentence(c["desc"]), "url": c["url"],
+              }
+
+
+          def parse_podcast(xml, keep=3):
+              out = []
+              for it in re.findall(r"<item>(.*?)</item>", xml, re.S)[:keep]:
+                  def grab(tag):
+                      m = re.search(r"<%s[^>]*>(.*?)</%s>" % (tag, tag), it, re.S)
+                      v = m.group(1) if m else ""
+                      v = re.sub(r"^<!\[CDATA\[(.*)\]\]>$", r"\1", v.strip(), flags=re.S)
+                      return html.unescape(v).strip()
+                  title, link, dur = grab("title"), grab("link"), grab("itunes:duration")
+                  try:
+                      date = parsedate_to_datetime(grab("pubDate")).astimezone(timezone.utc).strftime("%Y-%m-%d")
+                  except Exception:
+                      continue
+                  num, name = "", title
+                  m = re.match(r"^(\d+)\s*[:.–-]\s*(.+)$", title)
+                  if m:
+                      num, name = m.group(1), m.group(2)
+                  mins = ""
+                  parts = [int(x) for x in dur.split(":") if x.isdigit()]
+                  if parts:
+                      secs = parts[-1] + (parts[-2] * 60 if len(parts) > 1 else 0) + (parts[-3] * 3600 if len(parts) > 2 else 0)
+                      mins = str(round(secs / 60)) if len(parts) > 1 else str(round(int(dur) / 60))
+                  out.append({"id": "ep-" + (num or date), "num": num, "title": name, "date": date, "minutes": mins, "url": link})
+              return out
+
+
+          def main():
+              try:
+                  old = json.load(open(OUT, encoding="utf-8"))
+              except Exception:
+                  old = {"courses": [], "podcast": []}
+              data = {"courses": old.get("courses", []), "podcast": old.get("podcast", [])}
+              today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+              try:
+                  courses = [x for x in (normalize_course(c) for c in parse_courses(fetch(COURSES_URL))) if x]
+                  courses = [c for c in courses if c["date"] >= today]
+                  if courses:
+                      data["courses"] = courses
+                  print("kurzy:", len(courses))
+              except Exception as e:
+                  print("kurzy se nepodařilo stáhnout:", e, file=sys.stderr)
+
+              try:
+                  eps = parse_podcast(fetch(PODCAST_RSS))
+                  if eps:
+                      data["podcast"] = eps
+                  print("epizody:", len(eps))
+              except Exception as e:
+                  print("podcast se nepodařilo stáhnout:", e, file=sys.stderr)
+
+              with open(OUT, "w", encoding="utf-8") as f:
+                  json.dump(data, f, ensure_ascii=False, indent=1)
+                  f.write("\n")
+
+
+          if __name__ == "__main__":
+              main()
+          PY
+
+      - name: Uložit změny
+        run: |
+          if git diff --quiet -- promo.json && git ls-files --error-unmatch promo.json >/dev/null 2>&1; then
+            echo "Beze změn."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add promo.json
+          git commit -m "Aktualizace tipů (kurzy a podcast)"
+          git push
