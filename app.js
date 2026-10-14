@@ -81,13 +81,16 @@
   function addDays(n) { var d = new Date(); d.setDate(d.getDate() + n); return isoDay(d); }
   var visits = (parseInt(store.get("ink-visits") || "0", 10) || 0) + 1;
   store.set("ink-visits", String(visits));
-  var promoData = null, promoItem = null, promoDecided = false;
+  var promoData = null, promoItems = {}, promoDecided = false;
+  var COOLDOWN_DAYS = 3;
   var ss = { get: function (k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } },
              set: function (k, v) { try { sessionStorage.setItem(k, v); } catch (e) {} } };
   function promoOff() { return store.get("ink-promo-off") === "1"; }
-  function dismissedList() { try { return JSON.parse(store.get("ink-promo-dismissed") || "[]"); } catch (e) { return []; } }
+  function listGet(k) { try { return JSON.parse(store.get(k) || "[]"); } catch (e) { return []; } }
+  function listAdd(k, id) { var l = listGet(k); if (l.indexOf(id) < 0) l.push(id); store.set(k, JSON.stringify(l.slice(-300))); }
+  function daysSince(iso) { return iso ? Math.floor((new Date(addDays(0)) - new Date(iso)) / 864e5) : 1e9; }
   function candidates() {
-    var gone = dismissedList(), out = [], t = addDays(0), until = addDays(45), recent = addDays(-30);
+    var gone = listGet("ink-promo-dismissed"), out = [], t = addDays(0), until = addDays(45), recent = addDays(-30);
     (promoData.courses || []).forEach(function (c) {
       if (c.date > t && c.date <= until && gone.indexOf(c.id) < 0)
         out.push({ kind: "course", item: c, w: /pokro|zku/i.test(c.level || "") ? 3 : 1 });
@@ -96,26 +99,41 @@
     if (ep && ep.date >= recent && gone.indexOf(ep.id) < 0) out.push({ kind: "podcast", item: ep, w: 4 });
     return out;
   }
+  function pickOne(list) {
+    var total = 0; list.forEach(function (c) { total += c.w; });
+    var r = Math.random() * total;
+    for (var i = 0; i < list.length; i++) { r -= list[i].w; if (r < 0) return list[i]; }
+    return list[list.length - 1] || null;
+  }
   function decidePromo() {
     if (promoDecided || !promoData) return;
     promoDecided = true;
-    var today = addDays(0), saved = ss.get("ink-promo-now");
-    if (saved && params.get("tip") === null) { // stejné promo po celou tuto návštěvu
-      var all = candidates();
-      promoItem = all.filter(function (c) { return c.item.id === saved; })[0] || null;
+    var force = params.get("tip") !== null;     // testování: karty.ink.cz/?tip
+    var all = candidates(), byId = {};
+    all.forEach(function (c) { byId[c.item.id] = c; });
+    var saved = null;
+    try { saved = JSON.parse(ss.get("ink-promo-now") || "null"); } catch (e) {}
+    if (saved && !force) {                      // stejné tipy po celou tuto návštěvu
+      ["pocity", "potreby"].forEach(function (v) { if (saved[v] && byId[saved[v]]) promoItems[v] = byId[saved[v]]; });
       return;
     }
-    var force = params.get("tip") !== null;     // testování: karty.ink.cz/?tip
-    if (lang !== "cs" || (!force && (promoOff() || visits < 2 || store.get("ink-promo-day") === today))) return;
-    if (!force) {
-      store.set("ink-promo-day", today);         // nejvýš jednou denně
-      if (Math.random() < 0.5) return;          // a ne pokaždé
-    }
-    var list = candidates(), total = 0;
-    list.forEach(function (c) { total += c.w; });
-    var r = Math.random() * total;
-    for (var i = 0; i < list.length; i++) { r -= list[i].w; if (r < 0) { promoItem = list[i]; break; } }
-    if (promoItem) ss.set("ink-promo-now", promoItem.item.id);
+    if (lang !== "cs" || !all.length) return;
+    // každá návštěva kromě první, nejvýš jednou za 3 dny
+    if (!force && (promoOff() || visits < 2 || daysSince(store.get("ink-promo-last")) < COOLDOWN_DAYS)) return;
+    var seen = listGet("ink-promo-seen");
+    var fresh = all.filter(function (c) { return seen.indexOf(c.item.id) < 0; });
+    var pool = (fresh.length ? fresh : all).slice();
+    var now = {};
+    ["pocity", "potreby"].forEach(function (v) {
+      if (!pool.length) pool = all.filter(function (c) { return !Object.keys(now).some(function (k) { return now[k] === c.item.id; }); });
+      var p = pickOne(pool);
+      if (!p) return;
+      promoItems[v] = p; now[v] = p.item.id;
+      pool = pool.filter(function (c) { return c !== p; });
+      listAdd("ink-promo-seen", p.item.id);
+    });
+    if (!force) store.set("ink-promo-last", addDays(0));
+    ss.set("ink-promo-now", JSON.stringify(now));
   }
   var LEVELS = { "Začátečník": "pro začátečníky", "Pokročilý": "pro pokročilé", "Zkušený": "pro zkušené" };
   function shortDate(iso) { var p = iso.split("-"); return parseInt(p[2], 10) + ". " + parseInt(p[1], 10) + "."; }
@@ -140,7 +158,8 @@
       '<button type="button" class="promo-off">Už nezobrazovat tipy</button></div></div>';
   }
   function placePromo() {
-    if (!promoItem || lang !== "cs" || (promoOff() && params.get("tip") === null) || (view !== "pocity" && view !== "potreby")) return;
+    var promoItem = promoItems[view];
+    if (!promoItem || lang !== "cs" || (promoOff() && params.get("tip") === null)) return;
     var grid = main.querySelector(".grid");
     if (!grid || grid.querySelector(".promo")) return;
     var cards = grid.querySelectorAll(".card");
@@ -252,10 +271,11 @@
     var pr = e.target.closest(".promo");
     if (pr) {
       if (e.target.closest(".x")) {
-        var d = dismissedList(); d.push(pr.dataset.promo); store.set("ink-promo-dismissed", JSON.stringify(d.slice(-200)));
-        promoItem = null; pr.remove();
+        listAdd("ink-promo-dismissed", pr.dataset.promo);
+        if (promoItems[view] && promoItems[view].item.id === pr.dataset.promo) delete promoItems[view];
+        pr.remove();
       } else if (e.target.closest(".promo-off")) {
-        store.set("ink-promo-off", "1"); promoItem = null; pr.remove();
+        store.set("ink-promo-off", "1"); promoItems = {}; pr.remove();
         toast("Tipy jsou vypnuté. Zapnout je můžete ve Cvičeních.");
       }
       return;
@@ -299,7 +319,7 @@
   main.addEventListener("change", function (e) {
     if (e.target.id === "promo-toggle") {
       store.set("ink-promo-off", e.target.checked ? "0" : "1");
-      if (!e.target.checked) promoItem = null;
+      if (!e.target.checked) promoItems = {};
     }
   });
 
