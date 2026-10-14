@@ -75,6 +75,80 @@
     clearTimeout(toastTimer); toastTimer = setTimeout(function () { el.classList.remove("show"); }, 2200);
   }
 
+  // ---------- Promo: tipy na kurzy a nové epizody podcastu (jen česky) ----------
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+  function isoDay(d) { return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
+  function addDays(n) { var d = new Date(); d.setDate(d.getDate() + n); return isoDay(d); }
+  var visits = (parseInt(store.get("ink-visits") || "0", 10) || 0) + 1;
+  store.set("ink-visits", String(visits));
+  var promoData = null, promoItem = null, promoDecided = false;
+  var ss = { get: function (k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } },
+             set: function (k, v) { try { sessionStorage.setItem(k, v); } catch (e) {} } };
+  function promoOff() { return store.get("ink-promo-off") === "1"; }
+  function dismissedList() { try { return JSON.parse(store.get("ink-promo-dismissed") || "[]"); } catch (e) { return []; } }
+  function candidates() {
+    var gone = dismissedList(), out = [], t = addDays(0), until = addDays(45), recent = addDays(-30);
+    (promoData.courses || []).forEach(function (c) {
+      if (c.date > t && c.date <= until && gone.indexOf(c.id) < 0)
+        out.push({ kind: "course", item: c, w: /pokro|zku/i.test(c.level || "") ? 3 : 1 });
+    });
+    var ep = (promoData.podcast || [])[0];
+    if (ep && ep.date >= recent && gone.indexOf(ep.id) < 0) out.push({ kind: "podcast", item: ep, w: 4 });
+    return out;
+  }
+  function decidePromo() {
+    if (promoDecided || !promoData) return;
+    promoDecided = true;
+    var today = addDays(0), saved = ss.get("ink-promo-now");
+    if (saved) { // stejné promo po celou tuto návštěvu
+      var all = candidates();
+      promoItem = all.filter(function (c) { return c.item.id === saved; })[0] || null;
+      return;
+    }
+    if (lang !== "cs" || promoOff() || visits < 2 || store.get("ink-promo-day") === today) return;
+    store.set("ink-promo-day", today);           // nejvýš jednou denně
+    if (Math.random() < 0.5) return;            // a ne pokaždé
+    var list = candidates(), total = 0;
+    list.forEach(function (c) { total += c.w; });
+    var r = Math.random() * total;
+    for (var i = 0; i < list.length; i++) { r -= list[i].w; if (r < 0) { promoItem = list[i]; break; } }
+    if (promoItem) ss.set("ink-promo-now", promoItem.item.id);
+  }
+  var LEVELS = { "Začátečník": "pro začátečníky", "Pokročilý": "pro pokročilé", "Zkušený": "pro zkušené" };
+  function shortDate(iso) { var p = iso.split("-"); return parseInt(p[2], 10) + ". " + parseInt(p[1], 10) + "."; }
+  function promoHTML(p) {
+    var it = p.item, lab, meta, desc = "", btn, url = it.url;
+    if (p.kind === "course") {
+      lab = "Kurz INK" + (LEVELS[it.level] ? " · " + LEVELS[it.level] : "");
+      meta = shortDate(it.date) + (it.sub ? " · " + it.sub : "");
+      desc = it.desc || "";
+      btn = "Více o kurzu";
+      url += (url.indexOf("?") < 0 ? "?" : "&") + "utm_source=karty.ink.cz&utm_medium=app&utm_campaign=promo";
+    } else {
+      lab = "Nenásilný podcast · nová epizoda" + (it.num ? " " + it.num : "");
+      meta = "Petr Holík a Petr Sucháček" + (it.minutes ? " · " + it.minutes + " min" : "");
+      btn = "Poslechnout";
+    }
+    return '<div class="promo" data-promo="' + esc(it.id) + '"><div class="lab">' + esc(lab) + '</div>' +
+      '<button type="button" class="x" aria-label="Zavřít tip">×</button>' +
+      '<h3>' + esc(it.title) + '</h3><p class="meta">' + esc(meta) + '</p>' +
+      (desc ? '<p class="pdesc">' + esc(desc) + '</p>' : "") +
+      '<div class="prow"><a class="pill m" href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(btn) + '</a>' +
+      '<button type="button" class="promo-off">Už nezobrazovat tipy</button></div></div>';
+  }
+  function placePromo() {
+    if (!promoItem || lang !== "cs" || promoOff() || (view !== "pocity" && view !== "potreby")) return;
+    var grid = main.querySelector(".grid");
+    if (!grid || grid.querySelector(".promo")) return;
+    var cards = grid.querySelectorAll(".card");
+    var at = cards[Math.min(6, cards.length) - 1];
+    if (at) at.insertAdjacentHTML("afterend", promoHTML(promoItem));
+  }
+  function loadPromo() {
+    fetch("promo.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) { if (d) { promoData = d; decidePromo(); placePromo(); } }).catch(function () {});
+  }
+
   var view = "pocity", sortable = null, justDragged = false;
 
   function render() {
@@ -110,11 +184,14 @@
           '<button type="button" class="pill o" id="clear">' + esc(u.clear) + "</button></div>";
       }
     } else {
-      h = '<div class="ex">' + EXERCISES[lang].replace("{{DRAW}}",
+      var toggle = lang === "cs" ? '<label class="set"><span>Ukazovat tipy na kurzy a podcast</span>' +
+        '<input type="checkbox" id="promo-toggle"' + (promoOff() ? "" : " checked") + '><span class="sw" aria-hidden="true"></span></label>' : "";
+      h = '<div class="ex">' + EXERCISES[lang].replace('<footer class="license">', toggle + '<footer class="license">').replace("{{DRAW}}",
         '<div class="draw"><div id="drawn" hidden></div><button type="button" class="pill" id="draw">' + esc(u.draw) + "</button></div>") + "</div>";
     }
     main.innerHTML = h;
     window.scrollTo(0, 0);
+    placePromo();
 
     var grid = document.getElementById("selgrid");
     if (grid && window.Sortable) {
@@ -169,6 +246,17 @@
 
   var lastDraw = -1;
   main.addEventListener("click", function (e) {
+    var pr = e.target.closest(".promo");
+    if (pr) {
+      if (e.target.closest(".x")) {
+        var d = dismissedList(); d.push(pr.dataset.promo); store.set("ink-promo-dismissed", JSON.stringify(d.slice(-200)));
+        promoItem = null; pr.remove();
+      } else if (e.target.closest(".promo-off")) {
+        store.set("ink-promo-off", "1"); promoItem = null; pr.remove();
+        toast("Tipy jsou vypnuté. Zapnout je můžete ve Cvičeních.");
+      }
+      return;
+    }
     var c = e.target.closest(".card[data-key]");
     if (c) {
       if (view === "vyber") { if (!justDragged) removeFromSelection(c); return; }
@@ -205,6 +293,13 @@
     if (document.body.classList.contains("dragging")) e.preventDefault();
   }, { passive: false });
 
+  main.addEventListener("change", function (e) {
+    if (e.target.id === "promo-toggle") {
+      store.set("ink-promo-off", e.target.checked ? "0" : "1");
+      if (!e.target.checked) promoItem = null;
+    }
+  });
+
   window.addEventListener("hashchange", render);
   loadSel();
 
@@ -218,6 +313,7 @@
     history.replaceState(null, "", location.pathname + "#vyber");
   }
   render();
+  loadPromo();
 
   if ("serviceWorker" in navigator && location.protocol === "https:") {
     navigator.serviceWorker.register("sw.js");
