@@ -100,14 +100,17 @@
     if (promoDecided || !promoData) return;
     promoDecided = true;
     var today = addDays(0), saved = ss.get("ink-promo-now");
-    if (saved) { // stejné promo po celou tuto návštěvu
+    if (saved && params.get("tip") === null) { // stejné promo po celou tuto návštěvu
       var all = candidates();
       promoItem = all.filter(function (c) { return c.item.id === saved; })[0] || null;
       return;
     }
-    if (lang !== "cs" || promoOff() || visits < 2 || store.get("ink-promo-day") === today) return;
-    store.set("ink-promo-day", today);           // nejvýš jednou denně
-    if (Math.random() < 0.5) return;            // a ne pokaždé
+    var force = params.get("tip") !== null;     // testování: karty.ink.cz/?tip
+    if (lang !== "cs" || (!force && (promoOff() || visits < 2 || store.get("ink-promo-day") === today))) return;
+    if (!force) {
+      store.set("ink-promo-day", today);         // nejvýš jednou denně
+      if (Math.random() < 0.5) return;          // a ne pokaždé
+    }
     var list = candidates(), total = 0;
     list.forEach(function (c) { total += c.w; });
     var r = Math.random() * total;
@@ -137,7 +140,7 @@
       '<button type="button" class="promo-off">Už nezobrazovat tipy</button></div></div>';
   }
   function placePromo() {
-    if (!promoItem || lang !== "cs" || promoOff() || (view !== "pocity" && view !== "potreby")) return;
+    if (!promoItem || lang !== "cs" || (promoOff() && params.get("tip") === null) || (view !== "pocity" && view !== "potreby")) return;
     var grid = main.querySelector(".grid");
     if (!grid || grid.querySelector(".promo")) return;
     var cards = grid.querySelectorAll(".card");
