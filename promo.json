@@ -190,6 +190,14 @@
  ],
  "podcast": [
   {
+   "id": "ep-107",
+   "num": "107",
+   "title": "Ian Petey: Anger That Serves Life",
+   "date": "2026-10-15",
+   "minutes": "31",
+   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/107-Ian-Petey-Anger-That-Serves-Life-e3qf1vf"
+  },
+  {
    "id": "ep-106",
    "num": "106",
    "title": "4D of Disconnection: co spolehlivě brání spojení",
@@ -204,14 +212,6 @@
    "date": "2026-09-10",
    "minutes": "57",
    "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/105-Kdo--kde--co--kdy-a-m--Jak-najt-strategie--kter-fakt-budou-naplovat-poteby-e3olhnl"
-  },
-  {
-   "id": "ep-104",
-   "num": "104",
-   "title": "„Než jsem poznal nenásilku, mnohem víc jsem trpěl\" — upřímně z Festivalu nenásilné komunikace",
-   "date": "2026-08-14",
-   "minutes": "52",
-   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/104-Ne-jsem-poznal-nensilku--mnohem-vc-jsem-trpl--upmn-z-Festivalu-nensiln-komunikace-e3ndesn"
   }
  ]
 }
