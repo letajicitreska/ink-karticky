@@ -1,17 +1,6 @@
 {
  "courses": [
   {
-   "id": "konverzace-ktere-posiluji-vztahy",
-   "title": "Konverzace, které posilují vztahy",
-   "sub": "dlouhodobý kurz v Brně",
-   "date": "2026-10-15",
-   "time": "16:00",
-   "level": "Pokročilý",
-   "format": "Dlouhodobý",
-   "desc": "Šestitýdenní prohlubující trénink nenásilné komunikace vytváří soustředěný prostor pro uplatňování nenásilných principů při vedení konverzace.",
-   "url": "https://nenasilnakomunikace.org/kurz/konverzace-ktere-posiluji-vztahy/"
-  },
-  {
    "id": "rekni-co-chces-sila-jasnych-a-efektivnich-proseb-vecer-v-praze-3",
    "title": "Řekni, co chceš – síla jasných a efektivních proseb",
    "sub": "večer v Praze",
@@ -78,17 +67,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-polarizaci-spolecnosti/"
   },
   {
-   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
-   "title": "Když naslouchání nestačí – úvod do krizové intervence",
-   "sub": "den v Brně",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
-   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
-  },
-  {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-24",
    "title": "Úvod do nenásilné komunikace",
    "sub": "víkend v Praze",
@@ -98,6 +76,17 @@
    "format": "Víkend",
    "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-24/"
+  },
+  {
+   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
+   "title": "Když naslouchání nestačí – úvod do krizové intervence",
+   "sub": "den v Brně",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "level": "Pokročilý",
+   "format": "Jednodenní",
+   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
+   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
   },
   {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
@@ -192,10 +181,10 @@
   {
    "id": "ep-107",
    "num": "107",
-   "title": "Ian Petey: Anger That Serves Life",
+   "title": "Ian Peatey: Anger That Serves Life",
    "date": "2026-10-15",
    "minutes": "31",
-   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/107-Ian-Petey-Anger-That-Serves-Life-e3qf1vf"
+   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/107-Ian-Peatey-Anger-That-Serves-Life-e3qf1vf"
   },
   {
    "id": "ep-106",
