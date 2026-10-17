@@ -1,17 +1,6 @@
 {
  "courses": [
   {
-   "id": "rekni-co-chces-sila-jasnych-a-efektivnich-proseb-vecer-v-praze-3",
-   "title": "Řekni, co chceš – síla jasných a efektivních proseb",
-   "sub": "večer v Praze",
-   "date": "2026-10-16",
-   "time": "16:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Naučte se posouvat zaseknuté rozhovory díky paletě praktických technik a jasně formulovaných návrhů, které podpoří hledání společného řešení.",
-   "url": "https://nenasilnakomunikace.org/kurz/rekni-co-chces-sila-jasnych-a-efektivnich-proseb-vecer-v-praze-3/"
-  },
-  {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-23",
    "title": "Úvod do nenásilné komunikace",
    "sub": "víkend v Praze",
@@ -67,17 +56,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-polarizaci-spolecnosti/"
   },
   {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-24",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Praze",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-24/"
-  },
-  {
    "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
    "title": "Když naslouchání nestačí – úvod do krizové intervence",
    "sub": "den v Brně",
@@ -87,6 +65,17 @@
    "format": "Jednodenní",
    "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
    "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
+  },
+  {
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-24",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Praze",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "level": "Začátečník",
+   "format": "Víkend",
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-24/"
   },
   {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
@@ -175,6 +164,61 @@
    "format": "Jednodenní",
    "desc": "Dopřejte si intenzivní vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nvc-bratislava/"
+  },
+  {
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-35",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Brně",
+   "date": "2027-02-06",
+   "time": "10:00",
+   "level": "Začátečník",
+   "format": "Víkend",
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-35/"
+  },
+  {
+   "id": "eskalace-konfliktu-den-a-pul-v-brne",
+   "title": "Eskalace konfliktu",
+   "sub": "den a půl v Brně",
+   "date": "2027-03-06",
+   "time": "10:00",
+   "level": "Zkušený",
+   "format": "Víkend",
+   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
+   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
+  },
+  {
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-36",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Brně",
+   "date": "2027-03-27",
+   "time": "10:00",
+   "level": "Začátečník",
+   "format": "Víkend",
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-36/"
+  },
+  {
+   "id": "4-kroky-k-sobe-nenasilna-komunikace-prozitkem-den-v-brne",
+   "title": "4 kroky k sobě: Nenásilná komunikace prožitkem",
+   "sub": "den v Brně",
+   "date": "2027-04-03",
+   "time": "09:00",
+   "level": "Začátečník",
+   "format": "Jednodenní",
+   "desc": "Věnujte celý den sebe napojení skrze 4 kroky nenásilné komunikace - pozorování, pocity, potřeby a prosby.",
+   "url": "https://nenasilnakomunikace.org/kurz/4-kroky-k-sobe-nenasilna-komunikace-prozitkem-den-v-brne/"
+  },
+  {
+   "id": "eskalace-konfliktu-den-a-pul-v-praze",
+   "title": "Eskalace konfliktu",
+   "sub": "den a půl v Praze",
+   "date": "2027-05-15",
+   "time": "10:00",
+   "level": "Zkušený",
+   "format": "Víkend",
+   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
+   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-praze/"
   }
  ],
  "podcast": [
