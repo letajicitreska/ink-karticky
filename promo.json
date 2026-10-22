@@ -45,17 +45,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-polarizaci-spolecnosti/"
   },
   {
-   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
-   "title": "Když naslouchání nestačí – úvod do krizové intervence",
-   "sub": "den v Brně",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
-   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
-  },
-  {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-24",
    "title": "Úvod do nenásilné komunikace",
    "sub": "víkend v Praze",
@@ -65,6 +54,17 @@
    "format": "Víkend",
    "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-24/"
+  },
+  {
+   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
+   "title": "Když naslouchání nestačí – úvod do krizové intervence",
+   "sub": "den v Brně",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "level": "Pokročilý",
+   "format": "Jednodenní",
+   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
+   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
   },
   {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
@@ -210,15 +210,15 @@
    "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-praze/"
   },
   {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-37",
-   "title": "Úvod do nenásilné komunikace",
+   "id": "jak-vest-konflikty-o-klimatu-vikend-v-brne",
+   "title": "Jak vést konflikty o klimatu",
    "sub": "víkend v Brně",
-   "date": "2027-06-12",
+   "date": "2027-05-22",
    "time": "10:00",
    "level": "Začátečník",
    "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-37/"
+   "desc": "Fakta o klimatu potkávají nenásilnou komunikaci: víkend pro ty, kdo chtějí s lidmi kolem sebe najít v tématech klimatu a přírody společnou cestu.",
+   "url": "https://nenasilnakomunikace.org/kurz/jak-vest-konflikty-o-klimatu-vikend-v-brne/"
   }
  ],
  "podcast": [
