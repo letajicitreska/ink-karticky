@@ -166,6 +166,17 @@
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-35/"
   },
   {
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-26",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Praze",
+   "date": "2027-02-13",
+   "time": "09:00",
+   "level": "Začátečník",
+   "format": "Víkend",
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-26/"
+  },
+  {
    "id": "eskalace-konfliktu-den-a-pul-v-brne",
    "title": "Eskalace konfliktu",
    "sub": "den a půl v Brně",
@@ -199,26 +210,15 @@
    "url": "https://nenasilnakomunikace.org/kurz/4-kroky-k-sobe-nenasilna-komunikace-prozitkem-den-v-brne/"
   },
   {
-   "id": "eskalace-konfliktu-den-a-pul-v-praze",
-   "title": "Eskalace konfliktu",
-   "sub": "den a půl v Praze",
-   "date": "2027-05-15",
-   "time": "10:00",
-   "level": "Zkušený",
-   "format": "Víkend",
-   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
-   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-praze/"
-  },
-  {
-   "id": "jak-vest-konflikty-o-klimatu-vikend-v-brne",
-   "title": "Jak vést konflikty o klimatu",
-   "sub": "víkend v Brně",
-   "date": "2027-05-22",
-   "time": "10:00",
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-27",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Praze",
+   "date": "2027-04-17",
+   "time": "09:00",
    "level": "Začátečník",
    "format": "Víkend",
-   "desc": "Fakta o klimatu potkávají nenásilnou komunikaci: víkend pro ty, kdo chtějí s lidmi kolem sebe najít v tématech klimatu a přírody společnou cestu.",
-   "url": "https://nenasilnakomunikace.org/kurz/jak-vest-konflikty-o-klimatu-vikend-v-brne/"
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-27/"
   }
  ],
  "podcast": [
