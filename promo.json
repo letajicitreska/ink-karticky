@@ -155,17 +155,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nvc-bratislava/"
   },
   {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-35",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Brně",
-   "date": "2027-02-06",
-   "time": "10:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-35/"
-  },
-  {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne",
    "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím",
    "sub": "víkend v Brně",
@@ -175,6 +164,17 @@
    "format": "Víkend",
    "desc": "Tvá duchapřítomnost ti získává prostor pro volbu vědomého jednání.",
    "url": "https://nenasilnakomunikace.org/kurz/zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne/"
+  },
+  {
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-35",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Brně",
+   "date": "2027-02-06",
+   "time": "10:00",
+   "level": "Začátečník",
+   "format": "Víkend",
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-35/"
   },
   {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-26",
