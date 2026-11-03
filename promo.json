@@ -155,17 +155,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-praze-4/"
   },
   {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-35",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Brně",
-   "date": "2027-02-06",
-   "time": "10:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-35/"
-  },
-  {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne",
    "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím",
    "sub": "víkend v Brně",
@@ -177,15 +166,15 @@
    "url": "https://nenasilnakomunikace.org/kurz/zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne/"
   },
   {
-   "id": "spolu-v-rozhovoru",
-   "title": "Spolu v rozhovoru: O nás a našem vztahu",
-   "sub": "valentýnský víkend v Brně",
-   "date": "2027-02-13",
-   "time": "09:30",
-   "level": "Zkušený",
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-35",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Brně",
+   "date": "2027-02-06",
+   "time": "10:00",
+   "level": "Začátečník",
    "format": "Víkend",
-   "desc": "Pomocí nenásilné komunikace budeme objevovat, co nám pomáhá naslouchat si, mluvit o důležitých věcech, zvládat neshody a pečovat o blízkost.",
-   "url": "https://nenasilnakomunikace.org/kurz/spolu-v-rozhovoru/"
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-35/"
   },
   {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-26",
@@ -197,6 +186,17 @@
    "format": "Víkend",
    "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-26/"
+  },
+  {
+   "id": "spolu-v-rozhovoru",
+   "title": "Spolu v rozhovoru: O nás a našem vztahu",
+   "sub": "valentýnský víkend v Brně",
+   "date": "2027-02-13",
+   "time": "09:30",
+   "level": "Zkušený",
+   "format": "Víkend",
+   "desc": "Pomocí nenásilné komunikace budeme objevovat, co nám pomáhá naslouchat si, mluvit o důležitých věcech, zvládat neshody a pečovat o blízkost.",
+   "url": "https://nenasilnakomunikace.org/kurz/spolu-v-rozhovoru/"
   },
   {
    "id": "zaklady-nenasilne-komunikace-dlouhodoby-kurz-v-brne",
