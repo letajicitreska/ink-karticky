@@ -5,16 +5,16 @@
 window.CARDS = {
   cs: {
     feelings: [
-      "bolest|zranění", "povzbuzení|odhodlání", "lítost|zklamání", "úleva|uvolnění", "nervozita",
-      "zvědavost|zájem", "úzkost|stísněnost", "naplnění", "naštvání|podráždění", "klid",
-      "rozladění|rozhořčení", "nadšení|vášeň", "osamělost", "energie|osvěžení", "netrpělivost",
-      "veselost|pobavení", "zmatek", "smutek|beznaděj", "sebejistota", "frustrace", "inspirace",
-      "napětí", "radost|štěstí", "vztek|hněv", "hřejivý pocit|vřelost", "nuda", "hrdost",
-      "zahlcení", "hravost|rozpustilost", "mrzutost", "naděje", "rozpaky|stud|trapnost", "něha",
-      "otupělost|rezignace", "bezmoc", "vděčnost", "marnost", "volnost|bezstarostnost",
-      "netečnost|odpojení", "vyrovnanost|rovnováha", "hořkost", "překvapení", "žal|zármutek",
-      "fascinace|okouzlení|úžas", "strach|obavy", "pohoda|spokojenost", "únava|vyčerpání",
-      "dojetí", "znechucení"
+      "povzbuzení|odhodlání", "bolest|zranění", "úleva|uvolnění", "lítost|zklamání",
+      "zvědavost|zájem", "nervozita", "naplnění", "úzkost|stísněnost", "klid",
+      "naštvání|podráždění", "nadšení|vášeň", "rozladění|rozhořčení", "energie|osvěžení",
+      "osamělost", "veselost|pobavení", "netrpělivost", "smutek|beznaděj", "zmatek", "frustrace",
+      "sebejistota", "napětí", "inspirace", "vztek|hněv", "radost|štěstí", "nuda",
+      "hřejivý pocit|vřelost", "zahlcení", "hrdost", "mrzutost", "hravost|rozpustilost",
+      "rozpaky|stud|trapnost", "naděje", "otupělost|rezignace", "něha", "vděčnost", "bezmoc",
+      "volnost|bezstarostnost", "marnost", "vyrovnanost|rovnováha", "netečnost|odpojení",
+      "překvapení", "hořkost", "fascinace|okouzlení|úžas", "žal|zármutek", "pohoda|spokojenost",
+      "strach|obavy", "dojetí", "únava|vyčerpání", "znechucení"
     ],
     needs: [
       "jistota", "bezpečí", "dobrodružství|výzva", "dotek", "jasnost|orientace",
@@ -35,18 +35,18 @@ window.CARDS = {
   },
   en: {
     feelings: [
-      "disappointed|discouraged", "confident", "angry|furious|resentful", "passionate", "lonely",
-      "energised|alert", "helpless", "delighted|cheerful", "anxious|worried", "relieved",
-      "nervous|tense", "pleased|refreshed", "lost|uncertain", "friendly", "insecure",
-      "calm|relaxed", "hurt", "curious|interested", "tired|exhausted|drained", "surprised",
-      "numb|passive", "hopeful", "torn|hesitant", "thrilled|joyful", "impatient",
-      "encouraged|determined", "afraid|scared|shocked", "secure", "bored|dull", "amazed|in awe",
-      "confused|puzzled", "fascinated", "embarrassed|self-conscious", "excited|enthusiastic",
-      "hopeless", "free|empowered", "distant|withdrawn", "tender|affectionate",
-      "uncomfortable|upset", "thankful|grateful", "overwhelmed", "peaceful|at ease", "sorry",
-      "happy|glad", "ashamed|guilty", "proud", "frustrated", "comfortable|content", "disgusted",
-      "fulfilled|satisfied", "apathetic|indifferent", "inspired", "annoyed|irritated",
-      "touched|moved", "sad|heavy", "amused|playful"
+      "confident", "disappointed|discouraged", "passionate", "angry|furious|resentful",
+      "energised|alert", "lonely", "delighted|cheerful", "helpless", "relieved", "anxious|worried",
+      "pleased|refreshed", "nervous|tense", "friendly", "lost|uncertain", "calm|relaxed",
+      "insecure", "curious|interested", "hurt", "surprised", "tired|exhausted|drained", "hopeful",
+      "numb|passive", "thrilled|joyful", "torn|hesitant", "encouraged|determined", "impatient",
+      "secure", "afraid|scared|shocked", "amazed|in awe", "bored|dull", "fascinated",
+      "confused|puzzled", "excited|enthusiastic", "embarrassed|self-conscious", "free|empowered",
+      "hopeless", "tender|affectionate", "distant|withdrawn", "thankful|grateful",
+      "uncomfortable|upset", "peaceful|at ease", "overwhelmed", "happy|glad", "sorry", "proud",
+      "ashamed|guilty", "comfortable|content", "frustrated", "fulfilled|satisfied", "disgusted",
+      "inspired", "apathetic|indifferent", "touched|moved", "annoyed|irritated", "amused|playful",
+      "sad|heavy"
     ],
     needs: [
       "acceptance", "affection|warmth", "appreciation", "belonging", "closeness|intimacy",
