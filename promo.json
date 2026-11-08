@@ -1,17 +1,6 @@
 {
  "courses": [
   {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-33",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Brně",
-   "date": "2026-11-07",
-   "time": "10:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-33/"
-  },
-  {
    "id": "jak-pracovat-s-pretizenim-den-v-praze",
    "title": "Jak pracovat s přetížením a znovu najít energii",
    "sub": "den v Praze",
@@ -34,17 +23,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-polarizaci-spolecnosti/"
   },
   {
-   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
-   "title": "Když naslouchání nestačí – úvod do krizové intervence",
-   "sub": "den v Brně",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
-   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
-  },
-  {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-24",
    "title": "Úvod do nenásilné komunikace",
    "sub": "víkend v Praze",
@@ -54,6 +32,17 @@
    "format": "Víkend",
    "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-24/"
+  },
+  {
+   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
+   "title": "Když naslouchání nestačí – úvod do krizové intervence",
+   "sub": "den v Brně",
+   "date": "2026-11-21",
+   "time": "09:00",
+   "level": "Pokročilý",
+   "format": "Jednodenní",
+   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
+   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
   },
   {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
@@ -219,6 +208,17 @@
    "format": "Jednodenní",
    "desc": "Točíte se v kruhu?",
    "url": "https://nenasilnakomunikace.org/kurz/chci-zmenu-ale-jakou-presne-jak-si-udelat-jasno-v-rozhodnuti-vecer-v-praze/"
+  },
+  {
+   "id": "jak-slyset-a-rikat-ne",
+   "title": "Jak slyšet a říkat ne",
+   "sub": "den v Brně",
+   "date": "2027-03-05",
+   "time": "09:00",
+   "level": "Zkušený",
+   "format": "Jednodenní",
+   "desc": "Kurz o tom, jak říkání a slyšení NE může podporovat vztahy a laskavé, pevné držení hranic.",
+   "url": "https://nenasilnakomunikace.org/kurz/jak-slyset-a-rikat-ne/"
   }
  ],
  "podcast": [
