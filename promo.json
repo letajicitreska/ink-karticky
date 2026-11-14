@@ -1,17 +1,6 @@
 {
  "courses": [
   {
-   "id": "jak-pracovat-s-pretizenim-den-v-praze",
-   "title": "Jak pracovat s přetížením a znovu najít energii",
-   "sub": "den v Praze",
-   "date": "2026-11-13",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Máte pocit, že vás tempo vašeho života občas válcuje?",
-   "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-pretizenim-den-v-praze/"
-  },
-  {
    "id": "jak-pracovat-s-polarizaci-spolecnosti",
    "title": "Jak pracovat s polarizací společnosti",
    "sub": "den v Brně",
@@ -219,6 +208,17 @@
    "format": "Jednodenní",
    "desc": "Kurz o tom, jak říkání a slyšení NE může podporovat vztahy a laskavé, pevné držení hranic.",
    "url": "https://nenasilnakomunikace.org/kurz/jak-slyset-a-rikat-ne/"
+  },
+  {
+   "id": "introduction-to-nvc",
+   "title": "Introduction to Nonviolent Communication",
+   "sub": "weekend in Brno",
+   "date": "2027-03-06",
+   "time": "09:30",
+   "level": "Začátečník",
+   "format": "Víkend",
+   "desc": "The opportunity to explore the foundations of Nonviolent Communication (NVC), both theoretically and practically – an approach that is becoming…",
+   "url": "https://nenasilnakomunikace.org/kurz/introduction-to-nvc/"
   }
  ],
  "podcast": [
