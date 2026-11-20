@@ -1,17 +1,6 @@
 {
  "courses": [
   {
-   "id": "jak-pracovat-s-polarizaci-spolecnosti",
-   "title": "Jak pracovat s polarizací společnosti",
-   "sub": "den v Brně",
-   "date": "2026-11-19",
-   "time": "09:30",
-   "level": "Začátečník",
-   "format": "Jednodenní",
-   "desc": "Naučme se pracovat s tématy, která stále více polarizují společnost.",
-   "url": "https://nenasilnakomunikace.org/kurz/jak-pracovat-s-polarizaci-spolecnosti/"
-  },
-  {
    "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
    "title": "Když naslouchání nestačí – úvod do krizové intervence",
    "sub": "den v Brně",
@@ -35,8 +24,8 @@
   },
   {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
-   "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím",
-   "sub": "den v Praze",
+   "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím (den v Praze)",
+   "sub": "KAPACITA NAPLNĚNA",
    "date": "2026-11-23",
    "time": "09:00",
    "level": "Pokročilý",
@@ -210,6 +199,17 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-slyset-a-rikat-ne/"
   },
   {
+   "id": "eskalace-konfliktu-den-a-pul-v-brne",
+   "title": "Eskalace konfliktu",
+   "sub": "den a půl v Brně",
+   "date": "2027-03-06",
+   "time": "10:00",
+   "level": "Zkušený",
+   "format": "Víkend",
+   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
+   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
+  },
+  {
    "id": "introduction-to-nvc",
    "title": "Introduction to Nonviolent Communication",
    "sub": "weekend in Brno",
@@ -222,6 +222,14 @@
   }
  ],
  "podcast": [
+  {
+   "id": "ep-109",
+   "num": "109",
+   "title": "Weaponizing therapy speech: když terapeutický jazyk rozděluje",
+   "date": "2026-11-19",
+   "minutes": "56",
+   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/109-Weaponizing-therapy-speech-kdy-terapeutick-jazyk-rozdluje-e3sm12p"
+  },
   {
    "id": "ep-108",
    "num": "108",
@@ -237,14 +245,6 @@
    "date": "2026-10-15",
    "minutes": "31",
    "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/107-Ian-Peatey-Anger-That-Serves-Life-e3qf1vf"
-  },
-  {
-   "id": "ep-106",
-   "num": "106",
-   "title": "4D of Disconnection: co spolehlivě brání spojení",
-   "date": "2026-10-01",
-   "minutes": "64",
-   "url": "https://podcasters.spotify.com/pod/show/petr-holk0/episodes/106-4D-of-Disconnection-co-spolehliv-brn-spojen-e3pn4so"
   }
  ]
 }
