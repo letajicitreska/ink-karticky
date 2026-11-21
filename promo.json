@@ -122,17 +122,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-praze-4/"
   },
   {
-   "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne",
-   "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím",
-   "sub": "víkend v Brně",
-   "date": "2027-02-06",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Víkend",
-   "desc": "Tvá duchapřítomnost ti získává prostor pro volbu vědomého jednání.",
-   "url": "https://nenasilnakomunikace.org/kurz/zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne/"
-  },
-  {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-brne-35",
    "title": "Úvod do nenásilné komunikace",
    "sub": "víkend v Brně",
@@ -142,6 +131,17 @@
    "format": "Víkend",
    "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
    "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-brne-35/"
+  },
+  {
+   "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne",
+   "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím",
+   "sub": "víkend v Brně",
+   "date": "2027-02-06",
+   "time": "09:00",
+   "level": "Pokročilý",
+   "format": "Víkend",
+   "desc": "Tvá duchapřítomnost ti získává prostor pro volbu vědomého jednání.",
+   "url": "https://nenasilnakomunikace.org/kurz/zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne/"
   },
   {
    "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-26",
@@ -199,17 +199,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-slyset-a-rikat-ne/"
   },
   {
-   "id": "eskalace-konfliktu-den-a-pul-v-brne",
-   "title": "Eskalace konfliktu",
-   "sub": "den a půl v Brně",
-   "date": "2027-03-06",
-   "time": "10:00",
-   "level": "Zkušený",
-   "format": "Víkend",
-   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
-   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
-  },
-  {
    "id": "introduction-to-nvc",
    "title": "Introduction to Nonviolent Communication",
    "sub": "weekend in Brno",
@@ -219,6 +208,17 @@
    "format": "Víkend",
    "desc": "The opportunity to explore the foundations of Nonviolent Communication (NVC), both theoretically and practically – an approach that is becoming…",
    "url": "https://nenasilnakomunikace.org/kurz/introduction-to-nvc/"
+  },
+  {
+   "id": "eskalace-konfliktu-den-a-pul-v-brne",
+   "title": "Eskalace konfliktu",
+   "sub": "den a půl v Brně",
+   "date": "2027-03-06",
+   "time": "10:00",
+   "level": "Zkušený",
+   "format": "Víkend",
+   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
+   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
   }
  ],
  "podcast": [
