@@ -1,28 +1,6 @@
 {
  "courses": [
   {
-   "id": "kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4",
-   "title": "Když naslouchání nestačí – úvod do krizové intervence",
-   "sub": "den v Brně",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Na kurzu, který propojuje principy nenásilné komunikace s praktickými technikami krizové intervence si osvojíte její základy, práci s intenzivními…",
-   "url": "https://nenasilnakomunikace.org/kurz/kdyz-naslouchani-nestaci-uvod-do-krizove-intervence-den-v-brne-4/"
-  },
-  {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-24",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Praze",
-   "date": "2026-11-21",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-24/"
-  },
-  {
    "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
    "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím (den v Praze)",
    "sub": "KAPACITA NAPLNĚNA",
@@ -144,17 +122,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-vikend-v-brne/"
   },
   {
-   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-26",
-   "title": "Úvod do nenásilné komunikace",
-   "sub": "víkend v Praze",
-   "date": "2027-02-13",
-   "time": "09:00",
-   "level": "Začátečník",
-   "format": "Víkend",
-   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
-   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-26/"
-  },
-  {
    "id": "spolu-v-rozhovoru",
    "title": "Spolu v rozhovoru: O nás a našem vztahu",
    "sub": "valentýnský víkend v Brně",
@@ -164,6 +131,17 @@
    "format": "Víkend",
    "desc": "Pomocí nenásilné komunikace budeme objevovat, co nám pomáhá naslouchat si, mluvit o důležitých věcech, zvládat neshody a pečovat o blízkost.",
    "url": "https://nenasilnakomunikace.org/kurz/spolu-v-rozhovoru/"
+  },
+  {
+   "id": "uvod-do-nenasilne-komunikace-vikend-v-praze-26",
+   "title": "Úvod do nenásilné komunikace",
+   "sub": "víkend v Praze",
+   "date": "2027-02-13",
+   "time": "09:00",
+   "level": "Začátečník",
+   "format": "Víkend",
+   "desc": "Dopřejte si intenzivní víkendový vstup do světa nenásilné komunikace a vybudujte si pevné základy, které můžete dále rozvíjet.",
+   "url": "https://nenasilnakomunikace.org/kurz/uvod-do-nenasilne-komunikace-vikend-v-praze-26/"
   },
   {
    "id": "zaklady-nenasilne-komunikace-dlouhodoby-kurz-v-brne",
@@ -199,6 +177,17 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-slyset-a-rikat-ne/"
   },
   {
+   "id": "eskalace-konfliktu-den-a-pul-v-brne",
+   "title": "Eskalace konfliktu",
+   "sub": "den a půl v Brně",
+   "date": "2027-03-06",
+   "time": "10:00",
+   "level": "Zkušený",
+   "format": "Víkend",
+   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
+   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
+  },
+  {
    "id": "introduction-to-nvc",
    "title": "Introduction to Nonviolent Communication",
    "sub": "weekend in Brno",
@@ -210,15 +199,26 @@
    "url": "https://nenasilnakomunikace.org/kurz/introduction-to-nvc/"
   },
   {
-   "id": "eskalace-konfliktu-den-a-pul-v-brne",
-   "title": "Eskalace konfliktu",
-   "sub": "den a půl v Brně",
-   "date": "2027-03-06",
-   "time": "10:00",
-   "level": "Zkušený",
-   "format": "Víkend",
-   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
-   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
+   "id": "vztek-a-nenasilna-komunikace-od-sebeporozumeni-k-bezpecnemu-vyjadreni-den-v-praze",
+   "title": "Vztek a nenásilná komunikace: od sebeporozumění k bezpečnému vyjádření",
+   "sub": "den v Praze",
+   "date": "2027-03-13",
+   "time": "09:00",
+   "level": "Pokročilý",
+   "format": "Jednodenní",
+   "desc": "Co Vám říká vlastní vztek?",
+   "url": "https://nenasilnakomunikace.org/kurz/vztek-a-nenasilna-komunikace-od-sebeporozumeni-k-bezpecnemu-vyjadreni-den-v-praze/"
+  },
+  {
+   "id": "s-detmi-pochopeni-detskeho-sveta-dlouhodoby-kurz",
+   "title": "S dětmi: Pochopení dětského světa (dlouhodobý kurz v Brně (s přítomností miminek))",
+   "sub": "",
+   "date": "2027-03-15",
+   "time": "09:30",
+   "level": "Začátečník",
+   "format": "Dlouhodobý",
+   "desc": "“S dětmi” je tematická linka, ve které zkoumáme jak díky nenásilné komunikaci budovat vztahy s dětmi.",
+   "url": "https://nenasilnakomunikace.org/kurz/s-detmi-pochopeni-detskeho-sveta-dlouhodoby-kurz/"
   }
  ],
  "podcast": [
