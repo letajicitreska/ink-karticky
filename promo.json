@@ -1,17 +1,6 @@
 {
  "courses": [
   {
-   "id": "zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze",
-   "title": "Zvládání reaktivity: od automatických reakcí k vědomým odpovědím (den v Praze)",
-   "sub": "KAPACITA NAPLNĚNA",
-   "date": "2026-11-23",
-   "time": "09:00",
-   "level": "Pokročilý",
-   "format": "Jednodenní",
-   "desc": "Jak zareagujete, když vás něco zaskočí nebo vyvede z míry?",
-   "url": "https://nenasilnakomunikace.org/kurz/zvladani-reaktivity-od-automatickych-reakci-k-vedomym-odpovedim-den-v-praze/"
-  },
-  {
    "id": "usmirovani-a-pece-o-rany-2",
    "title": "Usmiřování a péče o rány",
    "sub": "den v Praze",
@@ -219,6 +208,17 @@
    "format": "Dlouhodobý",
    "desc": "“S dětmi” je tematická linka, ve které zkoumáme jak díky nenásilné komunikaci budovat vztahy s dětmi.",
    "url": "https://nenasilnakomunikace.org/kurz/s-detmi-pochopeni-detskeho-sveta-dlouhodoby-kurz/"
+  },
+  {
+   "id": "zpetna-vazba-ktera-spojuje-den-v-praze-4",
+   "title": "Zpětná vazba, která spojuje",
+   "sub": "den v Praze",
+   "date": "2027-03-21",
+   "time": "09:00",
+   "level": "Začátečník",
+   "format": "Jednodenní",
+   "desc": "Zpětná vazba je všude – v přírodě, doma, v práci, v mojí hlavě.",
+   "url": "https://nenasilnakomunikace.org/kurz/zpetna-vazba-ktera-spojuje-den-v-praze-4/"
   }
  ],
  "podcast": [
