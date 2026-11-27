@@ -166,17 +166,6 @@
    "url": "https://nenasilnakomunikace.org/kurz/jak-slyset-a-rikat-ne/"
   },
   {
-   "id": "eskalace-konfliktu-den-a-pul-v-brne",
-   "title": "Eskalace konfliktu",
-   "sub": "den a půl v Brně",
-   "date": "2027-03-06",
-   "time": "10:00",
-   "level": "Zkušený",
-   "format": "Víkend",
-   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
-   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
-  },
-  {
    "id": "introduction-to-nvc",
    "title": "Introduction to Nonviolent Communication",
    "sub": "weekend in Brno",
@@ -186,6 +175,17 @@
    "format": "Víkend",
    "desc": "The opportunity to explore the foundations of Nonviolent Communication (NVC), both theoretically and practically – an approach that is becoming…",
    "url": "https://nenasilnakomunikace.org/kurz/introduction-to-nvc/"
+  },
+  {
+   "id": "eskalace-konfliktu-den-a-pul-v-brne",
+   "title": "Eskalace konfliktu",
+   "sub": "den a půl v Brně",
+   "date": "2027-03-06",
+   "time": "10:00",
+   "level": "Zkušený",
+   "format": "Víkend",
+   "desc": "Naučte se konflikty otevírat, vstupovat do nich a bezpečně je eskalovat.",
+   "url": "https://nenasilnakomunikace.org/kurz/eskalace-konfliktu-den-a-pul-v-brne/"
   },
   {
    "id": "vztek-a-nenasilna-komunikace-od-sebeporozumeni-k-bezpecnemu-vyjadreni-den-v-praze",
